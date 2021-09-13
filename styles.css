@@ -1,0 +1,38 @@
+/* body{
+    background-color: lightcoral;
+} */
+/* #id
+. class */
+
+#title{
+    color: green;
+    text-align: center;
+}
+
+/* p{
+    color: yellow;
+    background-color: navy;
+} */
+
+.p-large{
+    font-size: 25px;
+}
+
+.parrafo1{
+    color: rgb(18, 179, 170);
+    background-color: rgb(49, 9, 87);
+    
+}
+
+h1{
+    color: red;
+} 
+
+.parrafo2{
+    color: red;
+    background-color: salmon;
+    
+}
+/* Titulo, subtitulo, párrafo sobre algún tema, una lista */
+
+

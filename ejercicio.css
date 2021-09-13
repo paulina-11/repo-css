@@ -1,0 +1,80 @@
+
+*{
+    font-family: monospace;
+}
+.titulo{
+    color: orange;
+    font-size: 150px;
+    text-align: center;
+}
+
+.descripcion{
+    color: white;
+    background: rgb(12, 51, 73);
+    padding: 20px;
+    border-style: double;
+    font-size: 20px;
+}
+
+.salchicha{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  }
+
+  .chihuahua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .cuadro{
+    color: white;
+    background: rgb(12, 51, 73);
+    padding: 20px;
+    font-size: 20px;
+
+  }
+
+  .descripcion2{
+      background-color: orange;
+      font-size: 20px;
+
+  }
+
+  /* Tabla */
+
+  ol {
+    background: #ff9999;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  ul {
+    background: rgb(12, 51, 73);
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #2ac4b7;
+    margin: 5px;
+  }
+ 
+  .video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
