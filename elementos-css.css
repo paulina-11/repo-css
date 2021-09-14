@@ -1,0 +1,52 @@
+/* body{
+    background-color: blue;
+} */
+body{
+ background-image: url(https://i.pinimg.com/564x/63/2b/9b/632b9b97cde2102827150105963b7ae8.jpg);
+ /* cover es para poner toda la pantalla */
+ 
+}
+.title{
+    text-align: center;
+    color: white;
+    background-color: lightseagreen;
+    border: 5px dotted blueviolet;
+}
+
+.subtitle{
+    background-color: blueviolet;
+    color: cornsilk;
+    /* Centrar textos */
+    text-align: center;
+    /* Margen interno al elemento */
+    padding: 10px;
+}
+
+/* #id
+. class */
+#caja, #caja2 {
+    background-color: rgb(0, 62, 155);
+    
+}
+/* div es una caja donde se meten elementos */
+#caja{
+    /* tamaños de cajas */
+    width: 400px;
+    height: 200px;
+    /* Margen afuera del border */
+    /*  primer valor arriba, abajo- segundo valor izquierda, derecha abreviado 
+    un valor es para los 4 lados
+    0 auto centrado*/
+
+    margin: 0 auto;
+
+    /* Por partes el margen */
+    /* margin-top: 100px;
+    margin-bottom: 50px; */
+
+}
+
+#caja p, #caja2 p{
+    color: white;
+}
+
