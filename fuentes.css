@@ -1,0 +1,27 @@
+.title{
+    font-family: 'Oswald', sans-serif;
+    /* Cambia que la letra se vea mas delgada o gruesa */
+    font-weight: 400;
+}
+
+.font{
+    font-family: 'Anton', sans-serif;
+}
+.nombre{
+    
+    font-family: 'Dancing Script', cursive; 
+}
+
+.name{
+   
+font-family: 'Cairo', sans-serif;
+}
+
+.apellido{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.nombre1{
+
+font-family: 'Architects Daughter', cursive;
+}
