@@ -1,0 +1,42 @@
+.container{
+    /* El porcentaje va sobre el contenedor */
+    width: 80%;
+    /* altura minima asisgnado a la caja padre */
+    min-height: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    /* Se aplica al padre y afecta a los hijos */
+    display: flex;
+    /* between espacio entre los elementos para que no se peguen, hace el calculo del espacio y lo distribuye entre la caja */
+    /* Nos deja acomodarlos Horizontal */
+    /* space-around deja un espacio entre los lados*/
+    justify-content: space-around;
+    /* Los elementos se distribuyen al espacio disponible toma el tamaño de la pantalla */
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    /* para centrar un texto dentro de un cuadro ponerle las propiedades al padre  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas1{
+    border: 2px solid yellow;
+}
+.cajas2{
+    border: 2px solid red;
+    /* Alinear unicamente */
+    align-self: flex-end;
+}
+.cajas3{
+    border: 2px solid purple;
+    align-self: center;
+}
+.cajas4{
+    border: 2px solid blue;
+}
